@@ -21,4 +21,5 @@ The core functionality is achieved by:
 - A starting point for interactive webpage features.
 - Great for teaching and learning JavaScript basics.
 
+![image](https://github.com/user-attachments/assets/aeb239ce-93bd-4f35-aeb6-dd0c9d896c40)
 
