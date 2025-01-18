@@ -1,0 +1,11 @@
+const htmlBody = document.querySelector('body');
+
+const randomClick = function () {
+  const color1 = ["blue", "green", "red", "purple", "orange", "gold", "silver"];
+  const randIndex = Math.floor(Math.random() * color1.length);
+  const randomColor = color1[randIndex];
+  htmlBody.style.backgroundColor = randomColor;
+  console.log('The user clicked and set color to ' + randomColor);
+};
+randomClick()
+htmlBody.onclick = randomClick;
